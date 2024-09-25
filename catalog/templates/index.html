@@ -20,4 +20,8 @@
     <li><strong>Genres:</strong> {{ num_genres }}</li>
     <li><strong>Books with 'The' word in title:</strong> {{ books_with_word }}</li>
   </ul>
+
+  <p>
+    You have visited this page {{ num_visits }} time{{ num_visits|pluralize }}.
+  <p>
 {% endblock %}
